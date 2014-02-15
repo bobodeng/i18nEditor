@@ -1,0 +1,86 @@
+
+  .j-eidt{
+    background-color: transparent;
+    border: 0px;
+    color: #ffffff;
+    /*cursor: */
+  }
+  .j-i18n{
+    border: 1px solid red;
+  }
+
+  .iconfont-edit{
+    cursor: pointer;
+  }
+  body{
+    margin-top: 30px !important;
+  }
+  #i18nBoard {
+    position: fixed;
+    height: 30px;
+    line-height: 30px;
+    background: #000;
+    color: #fff;
+    z-index: 10;
+    text-align: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  #i18nBoard.show{
+    height: 400px;
+    opacity:0.7;
+  }
+  #i18nBoard .content {
+      display: none;
+      font: 14px/1.5 'Xin Gothic', 'PT Sans', 'Hiragino Sans GB', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      position: relative;
+      width: 100%;
+      padding-top: 29px;
+  }
+
+  #i18nBoard.show .content{
+    display: block;
+  }
+  #i18nBoard .ui-switchable-nav {
+      position: absolute;
+      top: 0;
+      left: 20px;
+      margin: 0;
+      padding: 0;
+      z-index: 99;
+  }
+
+  #i18nBoard .ui-switchable-nav li {
+      border: 1px solid #fff;
+      color: #000;
+      float: left;
+      width: 130px;
+      height: 22px;
+      line-height: 21px;
+      text-align: center;
+      background-color: #958358;
+      margin-right: 3px;
+      padding-top: 6px;
+      cursor: pointer;
+  }
+
+  #i18nBoard .ui-switchable-nav .ui-switchable-active {
+      background-position: 0 -40px;
+      cursor: default;
+      background-color: transparent;
+      color: #ffffff;
+  }
+
+  #i18nBoard .ui-switchable-content {
+      position: relative;
+      height: 330px;
+      padding: 20px;
+      border-top: 1px solid #AEC7E5;
+      text-align: left;
+  }
+  #i18nBoard .board-trigger{
+      position: absolute;
+      top: 0;
+      right: 10px;
+  }
