@@ -42,6 +42,9 @@
   #i18nBoard.show .content{
     display: block;
   }
+  #i18nBoard.show .edit-info{
+    display: none;
+  }
   #i18nBoard .ui-switchable-nav {
       position: absolute;
       top: 0;
@@ -78,9 +81,45 @@
       padding: 20px;
       border-top: 1px solid #AEC7E5;
       text-align: left;
+      overflow: scroll;
   }
-  #i18nBoard .board-trigger{
+  #i18nBoard .botton-list{
       position: absolute;
       top: 0;
       right: 10px;
+  }
+  #i18nBoard .botton-list li{
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding: 2px 5px;
+  }
+  #i18nBoard .botton-list li:hover{
+    background-color: #fff;
+    border-color: #000;
+    color: #000;
+  }
+  #i18nBoard .board-key{
+    color: #FFA300;
+  }
+  #i18nBoard .edit-info span{
+    margin: 0 5px;
+  }
+  /*ƒÏ…Ù*/
+  .temp-box {
+    background-color: #000;
+    color: #fff;
+    padding:10px 0 30px 0;
+  }
+  .temp-box p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .temp-box li{
+    float: left;
+    margin-left: 30px;
+
   }
